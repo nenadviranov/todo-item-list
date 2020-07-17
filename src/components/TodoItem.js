@@ -8,10 +8,10 @@ export default class TodoItem extends Component {
                 <h6>{title}</h6>
                 <div className="todo-icon">
                     <span className="mx-2 text-success" onClick={handleEdit}>
-                        <i>+</i>
+                        <i>Edit +</i>
                     </span>
                     <span className="mx-2 text-danger" onClick={handleDelete}>
-                    <i>x</i>
+                    <i>Delete X</i>
                     </span>
                 </div>
             </li>
